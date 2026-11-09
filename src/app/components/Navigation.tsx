@@ -4,6 +4,7 @@ import { ViewType } from './MainLayout';
 import { Button } from './ui/button';
 import { Separator } from './ui/separator';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
+import { Logo } from './Logo';
 
 interface NavigationProps {
   currentView: ViewType;
@@ -22,8 +23,8 @@ export function Navigation({ currentView, onViewChange }: NavigationProps) {
         {/* Header */}
         <div className="p-3 border-b border-blue-700/30 flex justify-center">
           <Tooltip>
-            <TooltipTrigger className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center cursor-pointer border-0 hover:bg-white/20 transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:ring-offset-2 focus:ring-offset-white hover:scale-105">
-              <Shield className="w-5 h-5 text-white" />
+            <TooltipTrigger className="bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center cursor-pointer border-0 hover:bg-white/20 transition-all duration-200 ease-out focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:ring-offset-2 focus:ring-offset-white hover:scale-105 p-1.5">
+              <Logo variant="icon" />
             </TooltipTrigger>
             <TooltipContent side="right">
               <p style={{ fontFamily: "'Urbanist', sans-serif", fontWeight: 600 }}>VisionIQ</p>

@@ -20,6 +20,7 @@ import {
   Building2,
   Languages,
 } from "lucide-react";
+import { Logo } from "./Logo";
 
 interface LoginScreenProps {
   onLogin: () => void;
@@ -66,13 +67,10 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
     <div className="min-h-screen flex items-center justify-center bg-transparent p-4">
       <Card className="w-full max-w-md fluent-card fluent-shadow transition-all duration-200 ease-out hover:fluent-shadow-lg">
         <CardHeader className="text-center space-y-6 pb-[8px] pt-[24px] pr-[24px] pl-[24px]">
-          <div className="mx-auto w-20 h-20 bg-gradient-to-tr from-[#0E19EF] to-[#FF248E] rounded-3xl flex items-center justify-center fluent-shadow transition-all duration-200 ease-out hover:scale-105">
-            <Shield className="w-10 h-10 text-white" />
+          <div className="mx-auto">
+            <Logo variant="full" className="justify-center" />
           </div>
           <div className="space-y-2">
-            <CardTitle className="bg-gradient-to-bl from-[#0E19EF] to-[#FF248E] bg-clip-text text-transparent" style={{ fontFamily: "'Urbanist', sans-serif", fontWeight: 600, fontSize: '1.875rem', letterSpacing: '-0.02em' }}>
-              VisionIQ
-            </CardTitle>
             <CardDescription className="text-gray-600" style={{ fontFamily: "'Urbanist', sans-serif", fontWeight: 400, fontSize: '1rem' }}>
               Intelligent Document Processing Platform
             </CardDescription>

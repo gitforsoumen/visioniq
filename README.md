@@ -1,7 +1,7 @@
 
-  # VisionIQ Web App Design
+  # VisionIQ Web App - New Logo
 
-  This is a code bundle for VisionIQ Web App Design. The original project is available at https://www.figma.com/design/ANHMr3kXZtWvkr7FT8cFRK/VisionIQ-Web-App-Design.
+  This is a code bundle for VisionIQ Web App - New Logo. The original project is available at https://www.figma.com/design/xZAhH8tQxYPcRoRkXa7y6E/VisionIQ-Web-App---New-Logo.
 
   ## Running the code
 
